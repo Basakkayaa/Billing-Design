@@ -1,0 +1,80 @@
+
+/* text*************************** */
+.text-14{
+    font-size:14;
+}
+.text-16{
+    font-size: 16px;
+}
+.text-18{
+    font-size: 18px;
+}
+.text-24{
+    font-size: 24px;
+}
+.text-32{
+    font-size: 32px;
+}
+/* *****************font */
+.font-400{
+    font-weight: 400;
+}
+.font-500{
+    font-weight: 500;
+}
+.font-700{
+    font-weight: 700;
+}
+/* dizayn******************************* */
+
+.m-5{
+    margin: 9px;
+}
+.m-10{
+    margin: 10px;
+}
+/* Margin-left */
+.ml-14{
+    margin-left: 14px;
+}
+/* Margin-top */
+.mt-5{
+    margin-top: 5px;
+}
+.mt-8{
+    margin-top: 8px
+}
+.mt-20{
+    margin-top: 20px;
+}
+.mt-50{
+    margin-top:50px;
+}
+.mt-125{
+    margin-top: 125px;
+}
+
+/* Margin-right */
+/* Margin-bottom */
+.mb-8{
+    margin-bottom: 8px;
+}
+.color{
+    color:#62618F;
+}
+.p-32{
+    padding: 32px;
+}
+.color-white{
+    color: #fff;
+}
+.gap{
+    display: flex;
+    flex-direction: column;
+    gap:16px;
+}
+.border0{
+    border: none;
+    /* text-decoration: none; */
+    background-color: transparent;
+}

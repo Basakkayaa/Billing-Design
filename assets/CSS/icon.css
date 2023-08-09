@@ -1,0 +1,34 @@
+
+.icon{
+    background-repeat: var(--background-repeat);
+    padding-left: 34px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.icon-gnr{
+    background-image: url(../icon/general.svg);
+}
+.icon-pass{
+    background-image: url(../icon/password.svg);
+}
+.icon-inv{
+    background-image: url(../icon/invitations.svg);
+}
+.icon-bill{
+    background-image: url(../icon/billings.svg);
+}
+.icon-app{
+    background-image: url(../icon/apps.svg);
+}
+
+.icon-out{
+    background-image: url(../icon/out.svg);
+}
+.icon-bill, .icon-app{
+    padding-left: 50px;
+}
+.icon-down{
+    background-image: url(../icon/download.svg);
+}

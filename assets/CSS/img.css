@@ -1,0 +1,12 @@
+.raunded-circle{
+    width: 55px;
+    height: 55px;
+    border-radius: 20%;
+    image-orientation: 10grad;
+}
+
+.img{
+    width: 87px;
+    height: 58px;
+    padding: 10px;
+}

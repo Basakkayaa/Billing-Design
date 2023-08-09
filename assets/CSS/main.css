@@ -1,0 +1,162 @@
+body{
+    background-color:#CBCBD9;
+    color:var(--color);
+}
+
+  @media (max-width: 767px) {
+    /* Sayfanın tamamını ölçeklendir */
+        body {
+        transform: scale(0.8); /* Ölçeklendirme faktörü ayarlayabilirsiniz */
+        transform-origin: top; /* Sayfanın yukarıdan ölçeklenmesini sağlar */
+        }
+}
+.container{
+    width: 276px;
+    height: 1000px;
+    background-color: var(--background-color);
+    border-radius: 46px;
+    display: grid;
+    margin-left: 57px;
+}
+.container::before{
+    content: '';
+    width: 1319px;
+    height: 870px;
+    background-color: #fff;
+    border-radius:36px;
+    margin-top: 185px;
+    margin-left: 145px;
+    position: initial;
+    grid-template-columns: 400px 400px 400px;
+    grid-template-rows: 100px 200px 50px;
+    gap:5%;
+}
+header{
+    width: 260px;
+    height: 879px;
+    position: absolute;
+    top: 188px;
+    left: 203px;
+    border-radius: 15px 0 0 0 ;
+}
+.profile{
+    width: 178px;
+    height: 55px;
+    margin-top:58px;
+    display: inline-flex;
+    margin-left: 54px;
+}
+.card{
+    width:260px;
+    height: 272px;
+    margin-top: 54px;
+}
+.card>div{
+    width: 222px;
+    height: 48px;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-bill{
+    width: 6px;
+    align-self: stretch;
+    /* border:1px solid red ; */
+    border-radius: 8px;
+    background-image: linear-gradient(
+    45deg,
+    lightgray 25%,
+    transparent 25%,
+    transparent 75%,
+    lightgray 75%
+    );
+
+}
+.card2{
+    width: 258px;
+    height: 221px;
+    margin-left: -12px;
+}
+
+footer{
+    width: 254px;
+    height: 48px;
+    margin-top: 368px;
+    margin-left: 10px;
+}
+footer>div{
+    display: flex;
+    padding: 8px 8px 8px 16px;
+}
+section{
+    margin-top: -822px;
+    margin-left: 496px;
+    z-index: 2;
+}
+.credi-card{
+    width: 601px;
+    height: 58px;
+    display: flex;
+    width: 601px;
+    align-items: center;
+    gap: 16px;
+}
+tr{
+   width: 617px;
+    height: 56px;
+    padding: 8px 16px;
+}
+.card-table{
+    border-collapse: collapse;
+    width: 617px;
+    text-decoration: none;
+    padding: 8px 16px;
+    align-items: center;
+}
+
+.box{
+    width: 555px;
+    height: 21px;
+    padding: 0px 16px;
+    align-items: flex-start;
+    gap: 168px;
+    color:#62618F;
+
+}
+.text{
+    text-decoration: underline;
+    color:#EE4D38;
+}
+#creditCardNumber{
+    width: 384px;
+    height: 24px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--color);
+    text-decoration: none;
+    border: none;
+}
+#creditCardNumber:hover{
+    text-decoration: none;
+    border: none;
+}
+
+.credi-card>button{
+    width: 98px;
+    height: 40px;
+    border: none;
+}
+article{
+    width: 258px;
+    height: 221px;
+    display:grid;
+    gap: 16px;
+    margin-top: -740px;
+    margin-left: 1059px;
+    border-radius: 16px;
+    background: #EE4D38;
+    box-shadow: 0px 8px 19px 0px rgba(223, 223, 253, 0.60);
+    filter: drop-shadow(2px 4px 6px black);
+}
